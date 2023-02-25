@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Lily+Script+One&family=Poppins:wght@400;600&family=Roboto:wght@400;500;700&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+   
+    
+}
+.container{
+    height: 95vh;
+    width: 90vw;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-inline: 50px;
+
+}
+.btn{
+    background: none;
+    outline: none;
+    border: 2px solid grey;
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.btn:hover{
+    border-color: green ;
+}
+.container h2{
+    font-size: 48px;
+    margin: 30px;
+}
+span{
+    font-size: 100px;
+    color: green;
+}
+
+@media screen and (max-width: 480px) {
+    
+    
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
